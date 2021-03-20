@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container" class="u-full-width">
+    <header>
+      <h1 style="margin-top: 5%;">PROJECT: LIBRARY</h1>
+      This is a project for The Odin Project. <br>
+      If you interested in this project, check <a href="https://www.theodinproject.com/courses/javascript/lessons/library" target="_blank">here</a> (The Odin Project Homepage) and my <a href="#"> Github</a> repository.
+    </header>
+    
+
+    <form action="" style="margin-top: 5%;">
+    <input type="text" placeholder="Book Title" class="u-full-width" id="title">
+    <input type="text" placeholder="Book Author" class="u-full-width" id="author">
+    <input type="number" placeholder="Book Pages" class="u-full-width" id="pages">
+
+    <select name="status" id="status" class="u-full-width">
+      <option value="read">Read</option>
+      <option value="not read">Not read</option>
+    </select>
+    <input type="submit" value="Add Book" class="button" style="margin-top: 2%; background-color: black; color: white;">
+    </form>
+    
+    <table class="u-full-width" id="table">
+      <thead>
+        <tr class="tr-background">
+          <th>Book Title</th>
+          <th>Book Author</th>
+          <th>Book Pages</th>
+          <th>READ OR NOT</th>
+          <th>Trash</th>
+        </tr>
+      </thead>
+      <tbody id="add-book-list">
+        <tr>
+          <td>One Piece</td>
+          <td>Eichiro Oda</td>
+          <td>200 Pages</td>
+          <td><button id="read-or-not">READ</button></td>
+          <td><i class="fas fa-trash" id="trash"></i></td>
+        </tr>
+        <tr>
+          <td>Naruto</td>
+          <td>Masaki Kishimoto</td>
+          <td>100 Pages</td>
+          <td><button id="read-or-not">NOT READ</button></td>
+          <td><i class="fas fa-trash" id="trash"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <script src="javascript/script.js"></script>
+</body>
+</html>

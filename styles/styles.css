@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  text-align: center;
+}
+
+.button:hover,
+#read-or-not:hover{
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  text-align: center;
+  border: 1px solid black; 
+}
+
+.tr-background{
+  background-color: rosybrown;
+}
+
+#read-or-not{
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+
+#trash{
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
