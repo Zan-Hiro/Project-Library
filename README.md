@@ -4,7 +4,7 @@ This work is for The Odin Project.
 
 https://www.theodinproject.com/courses/javascript/lessons/library
 
-I finised for the most part of this project.
+I finised for the most part of this project.(demo here: https://zan-hiro.github.io/Project-Library/)
 
 But, localStorage part is not finished.(Optional part)
 
